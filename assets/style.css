@@ -1,33 +1,64 @@
+/* This is the styling for the header */
 header {
     background-color: navy;
     color: white;
-    font-family: Arial;
-    font-size: 20px;
-    text-align: left;
     padding: 10px;
 }
 
+header h1 {
+    font-family: Georgia;
+    font-size: 40px;
+}
+
+/* This is the styling for the nav bar and the links in the nav bar */
 nav {
     background-color: navy;
+}
+
+nav a {
     color: white;
     font-family: Arial;
     font-size: 20px;
 }
 
-a {
-    display: inline-block;
+
+about {
+    margin-right: 20px;
+    padding: 10px;
+    clear: both;
+    float: left;
+    width: 100%;
+    height: 10%;
+    font-family: Arial;
+    background-color: gray;
     color: white;
-
 }
 
-
-body {
-    background-color: white;
-    color: black;
-    font-family: arial;
-    font-size: 20px;
+/* This is the "about Me" styling */
+about h3 {
+    font-size: 30px;
 }
 
+about p {
+    max-width: 80%;
+    padding-left: 10%;
+}
+
+about img {
+    display: inline-block;
+    margin: 10px auto;
+    max-width: 20%;
+    max-height: 10%;
+}
+
+about p {
+    display: inline-block;
+    justify-content: right;
+    max-width: 500px;
+    font-size: 30px;
+}
+
+/* This is the "Footer" styling */
 footer {
     background-color: gray;
     color: white;
